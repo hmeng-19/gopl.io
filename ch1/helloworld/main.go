@@ -9,8 +9,13 @@ package main
 
 import "fmt"
 
+//import "os" //imported and not used: "os"
+
+//if you put the left parenthess at the start of a new line, you would get the following error:
+// syntax error: unexpected semicolon or newline before {
 func main() {
-	fmt.Println("Hello, 世界")
+	//var v string //v declared and not used
+	fmt.Println("Hello, Haiyan!")
 }
 
 //!-
