@@ -1,0 +1,4 @@
+the fact that the local variables and return results are recycled until they are unreachable.
+If the return value of a function is a local pointer, then after the func call is done, the stack is not really winded. right?
+Page 36
+variable escape from function
