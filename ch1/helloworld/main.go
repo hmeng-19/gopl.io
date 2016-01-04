@@ -7,7 +7,10 @@
 //!+
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unicode/utf8"
+)
 
 //import "os" //imported and not used: "os"
 
@@ -15,7 +18,10 @@ import "fmt"
 // syntax error: unexpected semicolon or newline before {
 func main() {
 	//var v string //v declared and not used
-	fmt.Println("Hello, Haiyan!")
+	fmt.Println("Hello, Haiyan Welcome to the 世界!")
+	s := "世界"
+	fmt.Println(len(s))
+	fmt.Println(utf8.RuneCountInString(s))
 }
 
 //!-
